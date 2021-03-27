@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fav Icon-->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Urban Fashion</title>
+
+</head>
+
+<body>
+    <!-- Navegação -->
+    <nav class="nav">
+      <div class="navigation container">
+        <div class="logo">
+          <img src="/img/logo.png" alt="">
+        </div>
+
+        <div class="menu">
+          <div class="top-nav">
+            <div class="logo">
+              <img src="/img/logo.png" alt="">
+            </div>
+            <div class="close">
+              <i class="bx bx-x"></i> <!-- Icon de X (Close)-->
+            </div>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link scroll-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link scroll-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link scroll-link">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a href="#account" class="nav-link scroll-link">Conta</a>
+            </li>
+            <li class="nav-item">
+              <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a> <!-- Icon de Sacola -->
+            </li>
+          </ul>
+        </div>
+
+        <a href="cart.html" class="cart-icon">
+          <i class="bx bx-shopping-bag"></i>
+        </a> <!-- Icon Bag -->
+
+        <div class="hamburger">
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Todos os Produtos -->
+    <section class="section all-products" id="products">
+        <div class="top container"> <!-- Ordenação dos Produtos-->
+            <h1>Todos os Produtos</h1>
+            <form>
+                <select>
+                    <option value="1">Ordem Qualquer</option>
+                    <option value="2">Ordem por Preço</option>
+                    <option value="3">Ordem por Popularidade</option>
+                    <option value="4">Ordem por Venda</option>
+                    <option value="5">Ordem por Avaliação</option>
+                </select>
+                <span><i class='bx bx-chevron-down'></i></span>
+            </form>
+        </div>
+
+        <div class="product-center container">
+            <div class="product">
+                <div class="product-header">
+                    <img src="./img/produto12.png" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <a href="cart.html"> <span><i class="bx bx-shopping-bag"></i></span>
+                        </a>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="product-details.html"> <!-- Envia para o detalhamento do Produto-->
+                        <h3>Casaco Vermelho Básico</h3> <!-- Detalhamento-->
+                    </a>
+                    <div class="rating"> <!-- Caixa de Estrelas -->
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">R$100</h4>
+                </div>
+            </div> 
+
+            <!-- Produto 02-->
+            <div class="product">
+                <div class="product-header">
+                    <img src="/img/produto11.png" alt=""> <!-- Imagem do Produto-->
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Súeter Natalino Vermelho</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">R$80</h4>
+                </div>
+            </div>
+
+            <!-- Produto 03-->
+            <div class="product">
+                <div class="product-header">
+                    <img src="/img/produto10.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Casaco Infantil Ursinho Rosa</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">R$90</h4>
+                </div>
+            </div>
+
+            <!-- Produto 04-->
+            <div class="product">
+                <div class="product-header">
+                    <img src="/img/produto1.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Casaco Azul Unissex</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">R$110</h4>
+                </div>
+            </div>
+
+            <!-- Produto 05-->
+            <div class="product">
+                <div class="product-header">
+                    <img src="/img/produto3.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Súeter Arco Iris</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">R$90</h4>
+                </div>
+            </div>
+
+
+            <!-- Produto 06-->
+            <div class="product">
+                <div class="product-header">
+                    <img src="/img/produto4.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Casaco Grande Azul Elegante</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">R$150</h4>
+                </div>
+            </div>
+
+            <!-- Produto 07-->
+            <div class="product">
+                <div class="product-header">
+                    <img src="/img/produto5.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Casaco Elegante Casual</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">R$150</h4>
+                </div>
+            </div>
+
+            <!-- Produto 08-->
+            <div class="product">
+                <div class="product-header">
+                    <img src="/img/produto9.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Casaco Militar Masculino</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">R$140</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pagination">
+        <div class=" container">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span><i class='bx bx-right-arrow-alt'></i></span>
+        </div>
+    </section>
+
+
+
+    <!-- Criando o Footer -->
+  <footer id="contact" class="section footer"> <!-- Footer-->
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Colaboradores</a>
+          <a href="#">Cupons de Desconto</a>
+          <a href="#">Afiliais</a>
+          <a href="#">Coleções Passadas </a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMAÇÕES</h3>
+          <a href="#">Sobre</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos e condições</a>
+          <a href="#">Fale com a gente</a>
+        </div>
+        <div class="footer-center">
+          <h3>MINHA CONTA</h3>
+          <a href="#">Minha conta</a>
+          <a href="#">Compras Anteriores</a>
+          <a href="#">Lista de desejos</a>
+          <a href="#">Newsletter</a>
+        </div>
+        <div class="footer-center">
+          <h3>FALE COM A GENTE</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            29 Rua Nárnia, Leão Falante BRAZIL
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            urbanfashion@contato.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +55 (85) 98919-21298
+          </div>
+          <div>
+            <span>
+              <i class="far fa-paper-plane"></i>
+            </span>
+           Nárnia, BRAZIL
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

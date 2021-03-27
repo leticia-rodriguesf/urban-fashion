@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fav Icon-->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Urban Fashion</title>
+
+</head>
+
+<body>
+    <!-- Navegação -->
+    <nav class="nav">
+      <div class="navigation container">
+        <div class="logo">
+          <img src="/img/logo.png" alt="">
+        </div>
+
+        <div class="menu">
+          <div class="top-nav">
+            <div class="logo">
+              <img src="/img/logo.png" alt="">
+            </div>
+            <div class="close">
+              <i class="bx bx-x"></i> <!-- Icon de X (Close)-->
+            </div>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link scroll-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link scroll-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link scroll-link">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a href="#account" class="nav-link scroll-link">Conta</a>
+            </li>
+            <li class="nav-item">
+              <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a> <!-- Icon de Sacola -->
+            </li>
+          </ul>
+        </div>
+
+        <a href="cart.html" class="cart-icon">
+          <i class="bx bx-shopping-bag"></i>
+        </a> <!-- Icon Bag -->
+
+        <div class="hamburger">
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </nav>
+<!-- Carrinho-->
+<div class="container-md cart">
+    <table>
+      <tr>
+        <th>Produtos</th>
+        <th>Quantidade</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="/img/produto1.png" alt="">
+            <div>
+              <p>Casaco Azul Unissex</p>
+              <span>Preço: R$110.00</span>
+              <br />
+              <a href="#">Remover</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>R$110.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info"> <!-- Produto 02-->
+            <img src="./img/produto2.png" alt="">
+            <div>
+              <p>Casaco Masculino Elegante</p>
+              <span>Preço: R$120.00</span>
+              <br />
+              <a href="#">Remover</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>R$120.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="/img/produto3.png" alt="">
+            <div>
+              <p>Súeter Arco Iris</p>
+              <span>Preço: R$90.00</span>
+              <br />
+              <a href="#">Remover</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>R$90.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./img/produto4.png" alt="">
+            <div>
+              <p>Casaco Azul Elegante</p>
+              <span>Preço: R$150.00</span>
+              <br />
+              <a href="#">Remover</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>R$150.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./img/produto8.png" alt="">
+            <div>
+              <p>Casaco Rosé</p>
+              <span>Preço: R$100.00</span>
+              <br />
+              <a href="#">Remover</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>R$100.00</td>
+      </tr>
+    </table>
+
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>R$570</td>
+        </tr>
+        <tr>
+          <td>Frete</td>
+          <td>R$2</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>R$572</td>
+        </tr>
+      </table>
+      <a href="#" class="checkout btn">Confirmar Pagamento</a>
+
+    </div>
+
+  </div>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
